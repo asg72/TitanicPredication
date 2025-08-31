@@ -97,6 +97,7 @@ titanic-survival-prediction/
 ├── visualizations/
 │   └── roc_curve_comparison.png
 │
+│
 ├── requirements.txt
 ├── README.md
 └── main.py
@@ -146,7 +147,7 @@ num_transformer = Pipeline([
 ```
 
 ### Model Comparison
-Both models are evaluated using identical preprocessing and train-test splits to ensure fair comparison. The ROC-AUC curve visualization provides insight into model performance across different threshold values.
+Both models are evaluated using identical preprocessing and train-test splits to ensure fair comparison. The ROC-AUC curve visualization provides insight into model performance across different threshold values, showing both models achieve strong predictive performance well above random chance.
 
 ## 💡 Key Insights
 
@@ -180,22 +181,11 @@ To reproduce the results:
 3. Train both models with the specified parameters
 4. The `random_state=42` ensures reproducible train-test splits
 
-## 📝 Dependencies
-
-Create a `requirements.txt` file with:
-```
-numpy>=1.21.0
-pandas>=1.3.0
-scikit-learn>=1.0.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-```
-
 ## 📧 Contact
 
-[Your Name] - [your.email@example.com]
+Aamratansh Singh Gahlot - aamratanshsinghgahlot@gmail.com
 
-Project Link: [https://github.com/[your-username]/titanic-survival-prediction](https://github.com/[your-username]/titanic-survival-prediction)
+Project Link: [https://github.com/asg72/titanic-survival-prediction](https://github.com/[your-username]/titanic-survival-prediction)
 
 ## 🙏 Acknowledgments
 
