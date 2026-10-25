@@ -1,4 +1,4 @@
-# Titanic Survival Prediction Model
+# Titanic Survival Prediction Model 
 
 A machine learning project comparing Logistic Regression and Decision Tree algorithms to predict passenger survival on the RMS Titanic based on passenger characteristics and demographics.
 
